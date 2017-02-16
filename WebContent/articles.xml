@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="articles.xsl"?>
+<articles>
+	<article id="1">
+		<title>Article 1</title>
+		<date>14-05-2015</date>
+		<author>John Doe</author>
+		<category>Sports</category>
+		<preview>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ac orci posuere luctus.</preview>
+		<content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ac orci posuere luctus. 
+		Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus maximus orci sit amet est suscipit commodo. 
+		Morbi ultrices ligula at quam condimentum, nec auctor velit molestie. Sed mattis nisi ac sodales rhoncus. Donec sit amet 
+		consectetur tellus. Donec velit velit, placerat vel tortor vitae, tincidunt laoreet purus. Nunc et finibus augue. Vivamus sit amet porta nisi.</content>
+	</article>
+	
+	<article id="2">
+		<title>Article 2</title>
+		<date>15-03-2015</date>
+		<author>Mary Doe</author>
+		<category>Arts</category>
+		<preview>Etiam finibus leo a ex hendrerit eleifend.</preview>
+		<content>Etiam finibus leo a ex hendrerit eleifend. Pellentesque sit amet tortor egestas, condimentum odio in, aliquet est. Curabitur et purus sed orci accumsan tempus. Sed ultrices, tellus quis viverra tincidunt, nisi elit lobortis ex, sed feugiat sapien massa at velit. Proin justo risus, hendrerit nec molestie sed, volutpat vel augue. Nullam faucibus vel enim in luctus. Sed varius pharetra est. Maecenas sodales scelerisque lorem. Nulla facilisi. Integer sit amet augue id neque faucibus interdum cursus et nisi. Vestibulum vitae diam gravida, semper sapien eu, pharetra magna. Vestibulum consectetur lorem vel sapien semper lacinia. Maecenas justo eros, rhoncus vel urna quis, bibendum fermentum velit.</content>
+	</article>
+	
+	<article id="3">
+		<title>Article 3</title>
+		<date>16-07-2015</date>
+		<author>Jerry Doe</author>
+		<category>Science</category>
+		<preview>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ac orci posuere luctus.</preview>
+		<content>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam aliquam ac orci posuere luctus. 
+		Interdum et malesuada fames ac ante ipsum primis in faucibus. Phasellus maximus orci sit amet est suscipit commodo. 
+		Morbi ultrices ligula at quam condimentum, nec auctor velit molestie. Sed mattis nisi ac sodales rhoncus. Donec sit amet 
+		consectetur tellus. Donec velit velit, placerat vel tortor vitae, tincidunt laoreet purus. Nunc et finibus augue. Vivamus sit amet porta nisi.</content>
+	</article>
+	
+	<article id="4">
+		<title>Article 4</title>
+		<date>15-08-2015</date>
+		<author>Harry Doe</author>
+		<category>Arts</category>
+		<preview>Etiam finibus leo a ex hendrerit eleifend.</preview>
+		<content>Etiam finibus leo a ex hendrerit eleifend. Pellentesque sit amet tortor egestas, condimentum odio in, aliquet est. Curabitur et purus sed orci accumsan tempus. Sed ultrices, tellus quis viverra tincidunt, nisi elit lobortis ex, sed feugiat sapien massa at velit. Proin justo risus, hendrerit nec molestie sed, volutpat vel augue. Nullam faucibus vel enim in luctus. Sed varius pharetra est. Maecenas sodales scelerisque lorem. Nulla facilisi. Integer sit amet augue id neque faucibus interdum cursus et nisi. Vestibulum vitae diam gravida, semper sapien eu, pharetra magna. Vestibulum consectetur lorem vel sapien semper lacinia. Maecenas justo eros, rhoncus vel urna quis, bibendum fermentum velit.</content>
+	</article>
+</articles>

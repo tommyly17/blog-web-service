@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+ xmlns:xs="http://www.w3.org/2001/XMLSchema"
+ targetNamespace="http://www.uts.edu.au/31284/wsd-diary"
+ xmlns="http://www.uts.edu.au/31284/wsd-diary"
+ elementFormDefault="qualified">
+<!-- Custom simple types -->
+<xs:simpleType name="author">
+ <xs:restriction base="xs:string">
+  <xs:pattern value="[A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]* [A-Z][a-z]* [A-Z][a-z]*|[A-Z][a-z]*"/>
+ </xs:restriction>
+</xs:simpleType>
+
+<xs:simpleType name="date">
+ <xs:restriction base="xs:string">
+  <xs:pattern value="\d{1,2}-\d{1,2}-\d{1,4}"/>
+ </xs:restriction>
+</xs:simpleType>
+
+<!-- Element declarations -->
+<xs:element name="articles">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="article" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="title" type="xs:string"/>
+					    <xs:element name="date" type="date"/>
+					    <xs:element name="author" type="author"/>
+					    <xs:element name="category" type="xs:string"/>
+					    <xs:element name="preview" type="xs:string"/>
+					    <xs:element name="content" type="xs:string"/>
+					</xs:sequence>
+					<xs:attribute name="id" type="xs:integer"/>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+
+</xs:schema>

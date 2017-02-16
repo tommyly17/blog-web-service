@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<users>
+	<user>
+		<email>john@johndoe.com</email>
+		<password>john</password>
+		<name>John Doe</name>
+		<dob>01/02/1987</dob>
+		<biography>Blah blah blah blah</biography>
+	</user>
+	<user>
+		<email>mary@marydoe.com</email>
+		<password>mary</password>
+		<name>Mary Doe</name>
+		<dob>01/02/1987</dob>
+		<biography>Blah blah blah blah</biography>
+	</user>
+	<user>
+		<email>jerry@jerrydoe.com</email>
+		<password>jerry</password>
+		<name>Jerry Doe</name>
+		<dob>01/02/1987</dob>
+		<biography>Blah blah blah blah</biography>
+	</user>
+	<user>
+		<email>harry@harrydoe.com</email>
+		<password>harry</password>
+		<name>Harry Doe</name>
+		<dob>01/02/1987</dob>
+		<biography>Blah blah blah blah</biography>
+	</user>
+</users>
